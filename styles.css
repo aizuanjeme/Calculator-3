@@ -1,0 +1,23 @@
+body {
+    background-image: url("math1.jpeg");
+    color: wheat;
+    text-align: center;
+}
+
+body.qua {
+    background-image: url("quad.jpeg");
+    color: black;
+    text-align: center;
+}
+
+a {
+    color: wheat;
+}
+
+div.card {
+    background-color: black;
+    color: blue;
+}
+#results{
+    display: none;
+}
