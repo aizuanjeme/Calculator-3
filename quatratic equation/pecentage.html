@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>percentage Errors Calculator</title>
+</head>
+
+<body class="qua">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card card-body text-center mt-5">
+                    <h1 class="heading display-5 pb-3">Percentage Errors Calculator</h1>
+                    <form id="qua-form">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="number" class="form-control" id="error" placeholder="Error">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="number" class="form-control" id="measure" placeholder="measurement">
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="submit" value="Calculate" class="btn btn-secondary btn-block">
+                        </div>
+                    </form>
+                    <!-- RESULTS -->
+            <div id="result" class="pt-4">
+                <h5>Results</h5>
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-addon">Error</span>
+                    <input type="number" class="form-control" id="error" disabled>
+                  </div>
+                </div>
+  
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-addon">percentage error</span>
+                    <input type="number" class="form-control" id="pererror" disabled>
+                  </div>
+                </div>
+  
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
