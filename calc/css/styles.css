@@ -1,11 +1,11 @@
 body {
-    background-image: url("math1.jpeg");
+    background-image: url("/assets/math1.jpeg");
     color: wheat;
     text-align: center;
 }
 
 body.qua {
-    background-image: url("quad.jpeg");
+    background-image: url("/assets/quad.jpeg");
     color: black;
     text-align: center;
 }
